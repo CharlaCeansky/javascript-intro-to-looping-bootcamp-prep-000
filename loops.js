@@ -26,5 +26,21 @@ function doWhileLoop(array){
     return (array)
     }
       }
+/*let thingsToDo = ['do laundry', 'take out the garbage', 'make dinner', 'walk the dog', 'go to the bank'];
+
+for (let thingsToDoIndex = thingsToDo.length - 1; thingsToDoIndex >= 0; thingsToDoIndex--) {
+  console.log('I need to ' + thingsToDo[thingsToDoIndex] + '.');
+}
+while (thingsToDo.length > 3) {
+  console.log('I have too many things to do!');
+	thingsToDo.pop();
+ }
+
+
+
+
+
+
+      
 //remove elements from the array until the array is empty or until `maybeTrue()` returns `false`.
 //(Your condition might look something like `array.length > 0 && maybeTrue()`.) Finally, return the array.
